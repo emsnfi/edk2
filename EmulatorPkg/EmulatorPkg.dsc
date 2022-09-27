@@ -224,7 +224,7 @@
 
 [PcdsFixedAtBuild]
 # UEFI / EDK II Training
-# gEfiMdeModulePkgTokenSpaceGuid.PcdHelloWorldPrintTimes|3
+  gEfiMdeModulePkgTokenSpaceGuid.PcdHelloWorldPrintTimes|3
 #   Here is where you would put the HelloWorldPrintString PCD
 # HINT: look at MdeModulePkg.dec for HelloWorldPrintString
 
@@ -310,6 +310,7 @@
     #  to build WinHost application.
     ##
     EmulatorPkg/Win/Host/WinHost.inf
+    SampleApp/SampleApp.inf
   !else
     ##
     #  Emulator, OS POSIX application
